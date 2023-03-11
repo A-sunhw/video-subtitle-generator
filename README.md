@@ -48,7 +48,7 @@ python backend/main.py
 
 #### 4. 模型文件设置（默认base）
 
-修改videffmpeg 不是内部或外部命令,也不是可运行的程序本目录下settings.ini中的Mode，取值为：base, medium, large，即可使用对应的识别模型
+修改video-subtitle-generator目录下settings.ini中的Mode，取值为：base, medium, large，即可使用对应的识别模型
 模型越大识别效果越好
 
 |  Mode  | 要求显存  | 速度 |
